@@ -48,7 +48,7 @@
     --bs-info-rgb: 13, 202, 240;
     --bs-warning-rgb: 255, 200, 0;
     --bs-danger-rgb: 220, 53, 69;
-    --bs-light-rgb: 248, 249, 250;
+    --bs-light-rgb: 0, 0, 128;
     --bs-dark-rgb: 33, 37, 41;
     --bs-white-rgb: 255, 255, 255;
     --bs-black-rgb: 0, 0, 0;
@@ -62,7 +62,7 @@
     --bs-body-font-weight: 400;
     --bs-body-line-height: 1.5;
     --bs-body-color: #212529;
-    --bs-body-bg: #fff;
+    --bs-body-bg: #000000;
     --bs-border-width: 1px;
     --bs-border-style: solid;
     --bs-border-color: #dee2e6;
@@ -10947,11 +10947,12 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: #fff;
-    background-image: url("https://i.imgur.com/FMYIMQP.jpg");
+    background-image: linear-gradient(rgba(0,0,0,0) 0%, rgba(0,0,0,0) 90%, rgba(0,0,0,1) 100%), url("./images/uliege_2560_1440_news_pds2020_les-planetes-de-la-science-fiction-01.jpg");
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;
+
 }
 header.masthead .masthead-subheading {
     font-size: 1.5rem;
